@@ -16,7 +16,7 @@ def pharmacy_numbers():
         Strings representing pharmacy numbers in the format "F - {n}" where n is in the range 1 to 9999.
     """
     for n in range(1, 10000):
-        yield f"F - {n}"
+        yield f"PH - {n}"
 
 def costemetics_numbers():
     """
